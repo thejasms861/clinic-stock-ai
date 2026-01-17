@@ -1,73 +1,122 @@
-# Welcome to your Lovable project
+Live demo vedio
 
-## Project info
+https://github.com/user-attachments/assets/7940f34c-7053-4229-ac57-1cf1b84d4928
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## How can I edit this code?
+🏥 ClinicInventory Forecast Suite
 
-There are several ways of editing your application.
+ClinicInventory Forecast Suite is an AI-powered web application that helps hospitals and clinics manage medicine inventory efficiently by shifting from reactive stock management to predictive, data-driven planning.
 
-**Use Lovable**
+🚨 Problem
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Hospitals often face:
 
-Changes made via Lovable will be committed automatically to this repo.
+Medicine stockouts
 
-**Use your preferred IDE**
+Expired medicines causing losses
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Emergency procurement at high cost
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+No visibility into future demand
 
-Follow these steps:
+Traditional inventory systems lack forecasting and real-time insights, making hospital supply chains fragile.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+💡 Solution
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+This system combines real-time inventory tracking with AI-based demand forecasting to help hospital staff:
 
-# Step 3: Install the necessary dependencies.
-npm i
+Track medicines batch-wise with expiry dates
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Predict demand for the next 4–12 weeks
 
-**Edit a file directly in GitHub**
+Get alerts for low stock, expiry risk, and overstock
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Import and export inventory data easily
 
-**Use GitHub Codespaces**
+👥 Target Users
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Hospital Administrators
 
-## What technologies are used for this project?
+Pharmacy Managers
 
-This project is built with:
+Medical Store / Supply Chain Managers
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+⚙️ Key Features (MVP)
 
-## How can I deploy this project?
+🔐 Role-based authentication (Admin, Pharmacy Manager, Store Manager)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+➕ Manual medicine & batch entry
 
-## Can I connect a custom domain to my Lovable project?
+📁 CSV / Excel inventory import with validation
 
-Yes, you can!
+📤 Real CSV export for audits and planning
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📊 Dashboard with stock summary & trends
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🤖 AI-based demand forecasting (4–12 weeks)
+
+🚨 Alerts for stockout, expiry, and overstock risks
+
+🧠 AI Component
+
+The system analyzes historical stock movement to forecast future medicine demand.
+For the MVP, a lightweight forecasting model is used, with scope to integrate advanced ML models in the future.
+
+🧪 How It Helps
+
+Prevents medicine shortages
+
+Reduces expiry-related losses
+
+Improves procurement planning
+
+Enables data-driven decision-making in hospitals
+
+🛠️ Tech Stack
+Frontend
+
+React.js
+
+Tailwind CSS
+
+Charting library (for trends & forecasts)
+
+Backend
+
+Node.js
+
+Express.js
+
+REST APIs
+
+Database
+
+PostgreSQL
+
+AI / Analytics
+
+Time-series based demand forecasting (MVP logic)
+
+Other
+
+CSV / Excel file handling
+
+Role-based access control
+
+Toast notifications & loading indicators
+
+🚀 Future Scope
+
+Advanced ML forecasting models
+
+Supplier & procurement automation
+
+Multi-hospital support
+
+ERP integration
+
+Real WhatsApp/SMS alerts
+
+📄 License
+
+Developed for educational and hackathon demonstration purposes.
